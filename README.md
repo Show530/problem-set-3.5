@@ -8,34 +8,44 @@ To get started, you'll need to create a [GitHub](https://github.com/) repository
 
 ### Setup
 
-01. Login to your [GitHub](https://github.com/) account and create a new repository named `problem-set-3`.
-02. In GitBash, navigate to your `APCSP` folder.
-03. Clone my skeleton repository from [GitHub](https://github.com/). This will make a copy of my repository and store it locally.
-```
-  git clone git@github.com:rwilson-ucvts/principles-pset3-skeleton.git
-```
-04. The cloning process will create a folder named `principles-pset3-skeleton`. Rename this folder to `problem-set-3`.
-```
-  mv principles-pset3-skeleton problem-set-3
-```
-05. Change directories to get into your `problem-set-3` folder.
-```
-  cd problem-set-3
-```
-06. The cloning process will add a remote named `origin` that points at my skeleton repository. Rename `origin` to `upstream`.
-```
-  git remote rename origin upstream
-```
-07. Add a new remote that points at the `problem-set-3` repository you created earlier. Make sure you replace `YOUR-USERNAME` with your actual [GitHub](https://github.com/) username.
-```
-  git remote add origin git@github.com:YOUR-USERNAME/problem-set-3.git
-```
-08. Launch [Atom](https://atom.io/), select `File` and click `Add Project Folder...`.
-09. Navigate to the `APCSP` folder on your `Desktop`, click the `problem-set-3` project folder, and click `Open`.
+1. Login to your [GitHub](https://github.com/) account and create a new repository named `problem-set-3`.
+1. In GitBash, navigate to your `APCSP` folder.
+1. Clone my skeleton repository from [GitHub](https://github.com/). This will make a copy of my repository and store it locally.
 
-You should now see a folder named `problem-set-3` in the `Project` panel in [Atom](https://atom.io/).
+    ```bash
+      git clone git@github.com:rwilson-ucvts/principles-pset3-skeleton.git
+    ```
 
-10. Expand the `Project` folder. You should see a file named `index.html`, and another named `README.md` (which is what you're reading right now!). Open the `index.html` file.
+1. The cloning process will create a folder named `principles-pset3-skeleton`. Rename this folder to `problem-set-3`.
+
+    ```bash
+      mv principles-pset3-skeleton problem-set-3
+    ```
+
+1. Change directories to get into your `problem-set-3` folder.
+
+    ```bash
+      cd problem-set-3
+    ```
+
+1. The cloning process will add a remote named `origin` that points at my skeleton repository. Rename `origin` to `upstream`.
+
+    ```bash
+      git remote rename origin upstream
+    ```
+
+1. Add a new remote that points at the `problem-set-3` repository you created earlier. Make sure you replace `YOUR-USERNAME` with your actual [GitHub](https://github.com/) username.
+
+    ```bash
+      git remote add origin git@github.com:YOUR-USERNAME/problem-set-3.git
+    ```
+
+1. Launch [Atom](https://atom.io/), select `File` and click `Add Project Folder...`.
+1. Navigate to the `APCSP` folder on your `Desktop`, click the `problem-set-3` project folder, and click `Open`.
+
+    You should now see a folder named `problem-set-3` in the `Project` panel in [Atom](https://atom.io/).
+
+1. Expand the `Project` folder. You should see a file named `index.html`, and another named `README.md` (which is what you're reading right now!). Open the `index.html` file.
 
 If you see the following starter code, then you've correctly cloned and setup your project.
 
@@ -48,31 +58,31 @@ Create a website about a (school-appropriate) topic that interests you. This mig
 More specifically, your website must include and incorporate the following features and elements.
 
 * 4 distinct pages (i.e., `.html` files)
-   - 1 page that gives a brief overview of your website topic (i.e., a homepage, which should be written in your `index.html` file)
-   - 3 pages that discuss separate subtopics in greater detail
+  * 1 page that gives a brief overview of your website topic (i.e., a homepage, which should be written in your `index.html` file)
+  * 3 pages that discuss separate subtopics in greater detail
 * A navigation bar that allows you to navigate to and from each of the 4 pages
 * A unique and descriptive `<title>` for each of the 4 pages
 * At least 3 of the header tags variations: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
 * At least 7 hyperlinks
-   - At least 4 internal links that use a relative URL: `<a href="/relative/url.html>` or `<a href="#id">`
-   - At least 3 external links that use an absolute URL: `<a href="https://absoluteurl.com">`
+  * At least 4 internal links that use a relative URL: `<a href="/relative/url.html>` or `<a href="#id">`
+  * At least 3 external links that use an absolute URL: `<a href="https://absoluteurl.com">`
 * At least 1 image per page: `<img src="/images/picture.png">`
-   - All images must be stored in a folder named `images` (the use of subfolders within `images` is at your discretion)
+  * All images must be stored in a folder named `images` (the use of subfolders within `images` is at your discretion)
 * At least 2 lists
-   - At least 1 ordered list: `<ol>`
-   - At least 1 unordered list: `<ul>`
+  * At least 1 ordered list: `<ol>`
+  * At least 1 unordered list: `<ul>`
 * At least 1 horizontal rule: `<hr/>`
 * At least 1 `<table>`
-   - Your `<table`> must include a header (`<thead>`), a body (`<tbody>`), and a footer (`<tfoot>`)
+  * Your `<table`> must include a header (`<thead>`), a body (`<tbody>`), and a footer (`<tfoot>`)
 * A consistent page footer on every page
-   - Your footer must include the copyright symbol and year (i.e., © 2018)
-   - Your footer must include the school (appropriately hyperlinked), and course (i.e., AIT | APSCS)
-   - Your footer must include a contact email (appropriately hyperlinked)
-      * You must not use an actual email (instead, use info@example.com)
+  * Your footer must include the copyright symbol and year (i.e., © 2018)
+  * Your footer must include the school (appropriately hyperlinked), and course (i.e., AIT | APSCS)
+  * Your footer must include a contact email (appropriately hyperlinked)
+* You must not use an actual email (instead, use info@example.com)
 
 To avoid confusion, your directory structure must match the following. If something is followed with a `/`, it is a folder; otherwise, it is a file.
 
-```
+```bash
 problem-set-3/
    images/
       myimage1.png
@@ -90,6 +100,7 @@ Of course, your filenames will be different than mine. They are alphabetized, so
 ## Deadline
 
 Your Canvas submission is due at or before 11:59pm on your section-specific due date.
+
 * October 9, 2018 (A 3/4 & 7/8)
 * October 10, 2018 (B 3/4 & 7/8)
 
