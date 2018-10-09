@@ -10,9 +10,19 @@
 
 h1 {
   text-align: center;
-  color: navy;
+  color: #37669B;
+}
+
+h3{
+  color: #993FC6;
+  font-size: 23px;
 }
 
 p {
-  color: grey;
+  color: #A98CB7;
+  font-size: 20px;
+}
+
+ul{
+  color: #54BF74
 }
