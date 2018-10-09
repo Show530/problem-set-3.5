@@ -4,13 +4,13 @@
   background-color: lightblue;
   width: 100%;
   margin-top: 0 auto;
-  top: 0;
-  left: 0;
   text-align: center;
+  height: 75px;
 }
 
 h1 {
-  top: 50px;
+  text-align: center;
+  color: navy;
 }
 
 p {
