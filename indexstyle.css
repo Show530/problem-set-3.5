@@ -1,0 +1,28 @@
+.nav {
+  position: fixed;
+  z-index: 2;
+  background-color: lightblue;
+  width: 100%;
+  margin-top: 0 auto;
+  text-align: center;
+  height: 75px;
+}
+
+h1 {
+  text-align: center;
+  color: #37669B;
+}
+
+h3{
+  color: #993FC6;
+  font-size: 23px;
+}
+
+p {
+  color: #A98CB7;
+  font-size: 20px;
+}
+
+ul{
+  color: #54BF74
+}
