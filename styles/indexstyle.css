@@ -8,26 +8,36 @@
   height: 75px;
 }
 
-#rink {
+img#rink {
+  border: 5px solid #ddd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 800px;
   height: 500px;
 }
 
+img#boot {
+  width: 800px;
+  height: 500px;
+  border: 5px solid #ddd;
+}
+
 h1 {
   text-align: center;
-  color: #37669B;
+  color: #0000CD;
 }
 
 h3{
-  color: #993FC6;
+  color: #8B008B;
   font-size: 23px;
 }
 
 p {
-  color: #A98CB7;
+  color: #9932CC;
   font-size: 20px;
 }
 
 ul{
-  color: #54BF74
+  color: #DA70D6;
 }

@@ -37,3 +37,8 @@
   height: 260px;
   width: 600px;
 }
+
+h1 {
+  text-align: center;
+  color: #0000CD;
+}
