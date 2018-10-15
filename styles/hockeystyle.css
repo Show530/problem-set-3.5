@@ -8,9 +8,10 @@
   height: 75px;
 }
 
-#game {
+img#game {
   height: 300px;
-   width: 500px;
+  width: 500px;
+  border: 5px solid #ddd;
 }
 
 h1 {
