@@ -27,18 +27,22 @@ img#boot {
 h1 {
   text-align: center;
   color: #0000CD;
+  font-style: italic;
 }
 
 h3{
   color: #8B008B;
+  text-decoration: underline;
   font-size: 23px;
+  font-weight: bold;
 }
 
 p {
   color: #9932CC;
-  font-size: 20px;
+  font: 16px Arial,sans-serif;
 }
 
 ul{
   color: #DA70D6;
+  font: 15px Arial,sans-serif;
 }

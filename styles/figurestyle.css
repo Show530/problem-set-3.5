@@ -46,4 +46,17 @@ img#theatre1 {
 h1 {
   text-align: center;
   color: #0000CD;
+  font-style: italic;
+}
+
+h2 {
+  text-decoration: underline;
+  color: #4B0082;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+p {
+  color: #3CB371;
+  font: 15px Arial,sans-serif;
 }

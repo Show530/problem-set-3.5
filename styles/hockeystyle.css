@@ -17,4 +17,22 @@ img#game {
 h1 {
   text-align: center;
   color: #0000CD;
+  font-style: italic;
+}
+
+h3 {
+  text-decoration: underline;
+  color: #4B0082;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+p {
+  color: #3CB371;
+  font: 15px Arial,sans-serif;
+}
+
+ol {
+  color: #40E0D0;
+  font: 15px Arial,sans-serif;
 }
