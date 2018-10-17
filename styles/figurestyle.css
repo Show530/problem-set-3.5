@@ -43,6 +43,14 @@ img#theatre1 {
   border: 5px solid #ddd;
 }
 
+body {
+  background-color: #F0F8FF;
+}
+
+footer {
+  background-color: #F0FFFF;
+}
+
 h1 {
   text-align: center;
   color: #0000CD;
@@ -59,4 +67,8 @@ h2 {
 p {
   color: #3CB371;
   font: 15px Arial,sans-serif;
+}
+
+a:hover {
+  color: #2F4F4F;
 }
