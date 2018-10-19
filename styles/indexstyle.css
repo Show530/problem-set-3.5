@@ -55,6 +55,14 @@ ul {
   font: 15px Arial,sans-serif;
 }
 
+a[href*="hockey"] {
+  font-style: italic;
+}
+
+a[href$=".html"] {
+  font-weight: bold;
+}
+
 a:hover {
   background-color: #E6E6FA;
 }
