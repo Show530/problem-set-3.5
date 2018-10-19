@@ -29,6 +29,7 @@ img#hayden1 {
   width: 400px;
   height: 260px;
   border: 5px solid #ddd;
+  margin-right: 10px;
 }
 
 img#hayden2 {
@@ -70,5 +71,5 @@ p {
 }
 
 a:hover {
-  color: #2F4F4F;
+  background-color: #E6E6FA;
 }
