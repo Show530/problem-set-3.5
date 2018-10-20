@@ -49,14 +49,14 @@ a[href$=".html"] {
   font-weight: bold;
 }
 
-a[href*="Hockey"] {
-  font-style: italic;
-}
-
 a[href*="hockey"] {
   font-style: italic;
 }
 
 a:hover {
   background-color: #E6E6FA;
+}
+
+a:visited {
+  color: 	#C71585;
 }

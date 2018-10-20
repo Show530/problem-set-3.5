@@ -47,12 +47,19 @@ h3 {
 
 p {
   color: #9932CC;
-  font: 16px Arial,sans-serif;
+  font: 17px Arial,sans-serif;
 }
 
 ul {
-  color: #DA70D6;
   font: 15px Arial,sans-serif;
+}
+
+p + ul {
+    color: #DA70D6;
+}
+
+ul + p {
+  font-size: 16px;
 }
 
 a[href*="hockey"] {
@@ -63,6 +70,18 @@ a[href$=".html"] {
   font-weight: bold;
 }
 
+a:link {
+  color: #D8BFD8;
+}
+
 a:hover {
   background-color: #E6E6FA;
+}
+
+a:visited {
+  color: 	#C71585;
+}
+
+* {
+  padding: auto;
 }

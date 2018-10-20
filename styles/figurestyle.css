@@ -70,10 +70,22 @@ p {
   font: 15px Arial,sans-serif;
 }
 
+h1 + p {
+  font-size: 18px;
+}
+
 a[href$=".html"] {
   font-weight: bold;
 }
 
+a[href*="hockey"] {
+  font-style: italic;
+}
+
 a:hover {
   background-color: #E6E6FA;
+}
+
+a:visited {
+  color: 	#C71585;
 }
