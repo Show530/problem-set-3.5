@@ -155,6 +155,10 @@ a:visited {
   color: 	#C71585;
 }
 
+a:link {
+  color: #8A2BE2;
+}
+
 * {
   padding: auto;
 }
