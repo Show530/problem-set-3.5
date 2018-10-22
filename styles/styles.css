@@ -35,6 +35,7 @@ img#boot {
   width: 800px;
   height: 500px;
   border: 5px solid #ddd;
+  border-radius: 25px;
 }
 
 img#nathan {
@@ -84,6 +85,7 @@ img#speed {
   height: 200px;
   width: 300px;
   border: 5px solid #ddd;
+  border-radius: 25px;
 }
 
 /*Tags*/
@@ -132,6 +134,7 @@ ol {
   font: 15px Arial,sans-serif;
 }
 
+/*Combinators*/
 h1 + p {
   font-size: 18px;
 }
@@ -140,6 +143,11 @@ ul + p {
   font-size: 16px;
 }
 
+p + ol {
+  font-style: oblique;
+}
+
+/*Attributes*/
 a[href$=".html"] {
   font-weight: bold;
 }
@@ -148,6 +156,11 @@ a[href*="hockey"] {
   font-style: italic;
 }
 
+[id|="foot"] {
+  color: darkblue;
+}
+
+/*Pseudo-classes*/
 a:hover {
   background-color: #E6E6FA;
 }
@@ -160,6 +173,7 @@ a:link {
   color: #8A2BE2;
 }
 
+/*Universal Selector*/
 * {
   padding: auto;
 }
